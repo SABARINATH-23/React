@@ -15,7 +15,6 @@ const Login = ()=>{
                         <input type="password" placeholder="Password"></input>
                         <button>Log in</button>
                         <p><NavLink to={<ForgottenAccount/>}>Forgotten account</NavLink> <NavLink to={''}>Sign up for Facebook</NavLink></p>
-
                 </div> 
             </div>       
         </>

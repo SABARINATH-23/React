@@ -11,7 +11,7 @@ const App = ()=>{
       <BrowserRouter>
           <Routes>
             <Route path='/' element={<Home/>}></Route>
-            <Route path="/login" element = {<Login/>}></Route>
+            <Route path="/login" element={<Login/>}></Route>
             <Route path="/forgottenpassword" element={<ForgetPassword/>}></Route>
             <Route path="/createaccount" element={<CreateAccount/>}></Route>
             <Route path='/createpage' element={<Createpage/>}></Route>
